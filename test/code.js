@@ -142,7 +142,7 @@ describe("arbCookie", () => {
     it("should never generate a plain cookie with less than 3 chips",
         () => {
         jsc.checkForall(arbPlainCookie, (plainCookie) => {
-            return plainCookie.numberOfChips > 3;
+            return plainCookie.numberOfChips >= 3;
         });
     });
 
