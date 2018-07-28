@@ -88,7 +88,8 @@ function generateCookie(size) {
     if (size === 0) {
         cookie.chipType = "none";
     } else {
-        chipTypes = ["milk chocolate", "dark chocolate", "none"];
+        const chipTypes = ["milk chocolate", "dark chocolate",
+            "none"];
         cookie.chipType = chipTypes[
             jsc.random(0, chipTypes.length - 1)];
     }

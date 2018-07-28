@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^5.2.0",
     "jsverify": "^0.8.3",
     "mocha": "^5.2.0"
   }
